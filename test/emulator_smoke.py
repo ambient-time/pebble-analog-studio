@@ -79,7 +79,7 @@ def run(platform):
         time.sleep(0.1)
         send_data_to_qemu(pebble.transport, QemuButton(state=0))
         time.sleep(0.5)
-        ToolAppInstaller(pebble, str(ROOT / 'build/classic-studio.pbw'), quiet=True).install()
+        ToolAppInstaller(pebble, str(ROOT / 'build' / (ROOT.name + '.pbw')), quiet=True).install()
         time.sleep(2)
         pebble.send_packet(AppRunState(data=AppRunStateStart(uuid=APP)))
         time.sleep(1)
@@ -111,7 +111,7 @@ def run(platform):
         later_second = grab('seconds-later', set_clock=False)
         assert first_second != later_second, 'Enabled seconds did not advance visibly'
         report = {'platform':platform,'capturedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),
-                  'pbwSHA256':hashlib.sha256((ROOT/'build/classic-studio.pbw').read_bytes()).hexdigest(),
+                  'pbwSHA256':hashlib.sha256((ROOT/'build'/(ROOT.name + '.pbw')).read_bytes()).hexdigest(),
                   'materialExpansion':'Six bezels/six dials; legacy artwork IDs1–27 retained',
                   'invalidCodeUnchanged':True,'restartRetained':True,'secondsAdvance':True,'frames':frames,'logs':log_lines,
                   'limits':'Private persistent emulator profile; direct AppMessage, not physical phone webview evidence.'}

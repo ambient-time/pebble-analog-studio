@@ -6,9 +6,9 @@ import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const pkg=JSON.parse(fs.readFileSync(path.join(root,'package.json')));
 const digest=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
-const pbwHash=digest(path.join(root,'build/classic-studio.pbw'));
-const store=path.resolve(root,'../store/classic-studio');
-const listing=JSON.parse(fs.readFileSync(path.join(store,'listing.json')));
+const pbwHash=digest(path.join(root,'build',path.basename(root)+'.pbw'));
+const store=path.resolve(root,'build/store-assets');
+const listing={name:'Analog Studio',platforms:pkg.pebble.targetPlatforms};
 const fixtures=['ivory','frost','noir','copper-verdigris','blued-ocean'];
 const dimensions={emery:[200,228],diorite:[144,168],chalk:[180,180],gabbro:[260,260]};
 const screenshots=[];
@@ -30,8 +30,8 @@ for(const platform of pkg.pebble.targetPlatforms){
   const reportFile=path.join(root,`build/evidence/${platform}-report.json`);
   const report=JSON.parse(fs.readFileSync(reportFile));
   for(const frame of report.frames)
-    fs.copyFileSync(path.join(root,frame),path.join(root,'evidence',path.basename(frame)));
-  fs.copyFileSync(reportFile,path.join(root,`evidence/${platform}-report.json`));
+    fs.copyFileSync(path.join(root,frame),path.join(store,path.basename(frame)));
+  fs.copyFileSync(reportFile,path.join(store,`${platform}-report.json`));
   for(const name of fixtures){
     const filename=`screenshots/${platform}_${name==='ivory'?'hero':name}.png`;
     fs.copyFileSync(path.join(root,`build/evidence/${platform}-${name}.png`),path.join(store,filename));

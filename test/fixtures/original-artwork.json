@@ -1,0 +1,437 @@
+{
+  "sourceCommit": "fc74b7d07c86feb7e5f5a0a2495b0f01d3f129c0",
+  "assets": [
+    {
+      "device": "emery",
+      "id": 1,
+      "recipe": 1,
+      "bezel": 1,
+      "dial": 1,
+      "sha256": "33cb6ab8b8b681613bd5cde5a49a881b1a288fa03fb4e7efd39dc4284ae7a220"
+    },
+    {
+      "device": "emery",
+      "id": 2,
+      "recipe": 1,
+      "bezel": 1,
+      "dial": 2,
+      "sha256": "31439d22bde7651cb7033ff9bbe5d2a2b2f362d6b851e6eaf935492d4a02c8be"
+    },
+    {
+      "device": "emery",
+      "id": 3,
+      "recipe": 1,
+      "bezel": 1,
+      "dial": 3,
+      "sha256": "e225ded06fa9d9c12fb21df561bf207f8e2c312aac8d5e4f0faecba90df0bfe2"
+    },
+    {
+      "device": "emery",
+      "id": 4,
+      "recipe": 1,
+      "bezel": 2,
+      "dial": 1,
+      "sha256": "0b902c457f7e92d285d09c47f9c7b9e99b5af6aaa17bde80181d88d6e91d375b"
+    },
+    {
+      "device": "emery",
+      "id": 5,
+      "recipe": 1,
+      "bezel": 2,
+      "dial": 2,
+      "sha256": "0bae5b552bf0c036a615cfb776d20c25cbbe848c91f830216388103915139f18"
+    },
+    {
+      "device": "emery",
+      "id": 6,
+      "recipe": 1,
+      "bezel": 2,
+      "dial": 3,
+      "sha256": "ec58712af655e2cb8016f9336268b69e1a9045cbaaf08a216970b1767a0f7a18"
+    },
+    {
+      "device": "emery",
+      "id": 7,
+      "recipe": 1,
+      "bezel": 3,
+      "dial": 1,
+      "sha256": "bc845a12ff2606064111d755c465f464237808208a81052c66c95b0c1661ca08"
+    },
+    {
+      "device": "emery",
+      "id": 8,
+      "recipe": 1,
+      "bezel": 3,
+      "dial": 2,
+      "sha256": "5bb33cba850a833373269295fa4007892b5e57c3d185db06a10a0614e7942508"
+    },
+    {
+      "device": "emery",
+      "id": 9,
+      "recipe": 1,
+      "bezel": 3,
+      "dial": 3,
+      "sha256": "1ec9880701576c608a49e4e23deacdbe6970c3e4508e1dd97350d378b156e63a"
+    },
+    {
+      "device": "emery",
+      "id": 10,
+      "recipe": 2,
+      "bezel": 1,
+      "dial": 1,
+      "sha256": "b806aba99ebc0a17bc340113739f9198600f2a0b673ef0635140f3cd5482b550"
+    },
+    {
+      "device": "emery",
+      "id": 11,
+      "recipe": 2,
+      "bezel": 1,
+      "dial": 2,
+      "sha256": "edb90c02193e741f89c51eb0ed0a6202bdfda6e79ccb97c21e2243f3b99f5c22"
+    },
+    {
+      "device": "emery",
+      "id": 12,
+      "recipe": 2,
+      "bezel": 1,
+      "dial": 3,
+      "sha256": "15f7140e8a667ccbd675b1c1a8bcbffc393cc1f10a4feb29eeb036246b614ca5"
+    },
+    {
+      "device": "emery",
+      "id": 13,
+      "recipe": 2,
+      "bezel": 2,
+      "dial": 1,
+      "sha256": "2019086a81b6f6807a1232d866375e20e37159024fa9c6825611fa9f59d76df0"
+    },
+    {
+      "device": "emery",
+      "id": 14,
+      "recipe": 2,
+      "bezel": 2,
+      "dial": 2,
+      "sha256": "e3a252890d216d96c5b67300a89718c37baa90ec798dde92c5e28726b4f52048"
+    },
+    {
+      "device": "emery",
+      "id": 15,
+      "recipe": 2,
+      "bezel": 2,
+      "dial": 3,
+      "sha256": "118bf3e259eeeca3c249d72048edaf3c5b78d6a5b6643b7774fc5e05ec99d352"
+    },
+    {
+      "device": "emery",
+      "id": 16,
+      "recipe": 2,
+      "bezel": 3,
+      "dial": 1,
+      "sha256": "2ec4aa62b82d1d442962446be0e9f3e0b2f5dc6cb6350910ac1b4e799a6f0094"
+    },
+    {
+      "device": "emery",
+      "id": 17,
+      "recipe": 2,
+      "bezel": 3,
+      "dial": 2,
+      "sha256": "32588005d6277a89add04dcb35683e073d3280474b63c929bda5a1b5358dd1f4"
+    },
+    {
+      "device": "emery",
+      "id": 18,
+      "recipe": 2,
+      "bezel": 3,
+      "dial": 3,
+      "sha256": "0809d905d396306cc106709b3779d99ba72c3f4229ad8fc002639c3dcd51ede8"
+    },
+    {
+      "device": "emery",
+      "id": 19,
+      "recipe": 3,
+      "bezel": 1,
+      "dial": 1,
+      "sha256": "d9a3dc508f8eede039d3b9664d2d2a5af049bca63eb27ef84b891f74812eb10b"
+    },
+    {
+      "device": "emery",
+      "id": 20,
+      "recipe": 3,
+      "bezel": 1,
+      "dial": 2,
+      "sha256": "085b8462d0482aad175e817db256fc3d25368c7e4bb8c4f5fce5d4385342263b"
+    },
+    {
+      "device": "emery",
+      "id": 21,
+      "recipe": 3,
+      "bezel": 1,
+      "dial": 3,
+      "sha256": "63031128415533e0f4727ecb3be0f4e87bde06d6430ea67a7da306ca81480841"
+    },
+    {
+      "device": "emery",
+      "id": 22,
+      "recipe": 3,
+      "bezel": 2,
+      "dial": 1,
+      "sha256": "a6ee80d9b49f125e09a12b4cfa1c850410378fbcf932ed963fbd2a3f30eeca7b"
+    },
+    {
+      "device": "emery",
+      "id": 23,
+      "recipe": 3,
+      "bezel": 2,
+      "dial": 2,
+      "sha256": "571b891b7cdbd25b7fca48a808c3b4be725c72fc6d26bf58dadd3dfc9d006080"
+    },
+    {
+      "device": "emery",
+      "id": 24,
+      "recipe": 3,
+      "bezel": 2,
+      "dial": 3,
+      "sha256": "c05cea37c9c03851ca8297a1b06c7e6094c0f908b6ad7164010579c020b22348"
+    },
+    {
+      "device": "emery",
+      "id": 25,
+      "recipe": 3,
+      "bezel": 3,
+      "dial": 1,
+      "sha256": "6dfa4b11f9aaa4b5f9db48085384ae825e6d362405d5e7f6169b74a0913e17b6"
+    },
+    {
+      "device": "emery",
+      "id": 26,
+      "recipe": 3,
+      "bezel": 3,
+      "dial": 2,
+      "sha256": "2d0535ba5181b53c19e811ae418b7fa359c88eb9034c7a84f953cbebd4e0f846"
+    },
+    {
+      "device": "emery",
+      "id": 27,
+      "recipe": 3,
+      "bezel": 3,
+      "dial": 3,
+      "sha256": "d8fce4d927507a5802e56105f09734fd7f88571f8492797c029e669d66c46edc"
+    },
+    {
+      "device": "diorite",
+      "id": 1,
+      "recipe": 1,
+      "bezel": 1,
+      "dial": 1,
+      "sha256": "d304b898211d9958e283e8af9c96ec836bab0032f0f2823c7333673e529765c1"
+    },
+    {
+      "device": "diorite",
+      "id": 2,
+      "recipe": 1,
+      "bezel": 1,
+      "dial": 2,
+      "sha256": "d304b898211d9958e283e8af9c96ec836bab0032f0f2823c7333673e529765c1"
+    },
+    {
+      "device": "diorite",
+      "id": 3,
+      "recipe": 1,
+      "bezel": 1,
+      "dial": 3,
+      "sha256": "feb15a69432ad1dc9a977645a39144491d78cfdff9aa7b3f02dbbc177a19c45f"
+    },
+    {
+      "device": "diorite",
+      "id": 4,
+      "recipe": 1,
+      "bezel": 2,
+      "dial": 1,
+      "sha256": "d304b898211d9958e283e8af9c96ec836bab0032f0f2823c7333673e529765c1"
+    },
+    {
+      "device": "diorite",
+      "id": 5,
+      "recipe": 1,
+      "bezel": 2,
+      "dial": 2,
+      "sha256": "d304b898211d9958e283e8af9c96ec836bab0032f0f2823c7333673e529765c1"
+    },
+    {
+      "device": "diorite",
+      "id": 6,
+      "recipe": 1,
+      "bezel": 2,
+      "dial": 3,
+      "sha256": "feb15a69432ad1dc9a977645a39144491d78cfdff9aa7b3f02dbbc177a19c45f"
+    },
+    {
+      "device": "diorite",
+      "id": 7,
+      "recipe": 1,
+      "bezel": 3,
+      "dial": 1,
+      "sha256": "d304b898211d9958e283e8af9c96ec836bab0032f0f2823c7333673e529765c1"
+    },
+    {
+      "device": "diorite",
+      "id": 8,
+      "recipe": 1,
+      "bezel": 3,
+      "dial": 2,
+      "sha256": "d304b898211d9958e283e8af9c96ec836bab0032f0f2823c7333673e529765c1"
+    },
+    {
+      "device": "diorite",
+      "id": 9,
+      "recipe": 1,
+      "bezel": 3,
+      "dial": 3,
+      "sha256": "feb15a69432ad1dc9a977645a39144491d78cfdff9aa7b3f02dbbc177a19c45f"
+    },
+    {
+      "device": "diorite",
+      "id": 10,
+      "recipe": 2,
+      "bezel": 1,
+      "dial": 1,
+      "sha256": "907ee208209bac360046e396c4fa02048c07ceb1485f9fe69a1ec4fdb71a77d0"
+    },
+    {
+      "device": "diorite",
+      "id": 11,
+      "recipe": 2,
+      "bezel": 1,
+      "dial": 2,
+      "sha256": "907ee208209bac360046e396c4fa02048c07ceb1485f9fe69a1ec4fdb71a77d0"
+    },
+    {
+      "device": "diorite",
+      "id": 12,
+      "recipe": 2,
+      "bezel": 1,
+      "dial": 3,
+      "sha256": "e4198c332d7c4ee32530d98f089bc8803710b346ba4aab5672efe4f7a80010c1"
+    },
+    {
+      "device": "diorite",
+      "id": 13,
+      "recipe": 2,
+      "bezel": 2,
+      "dial": 1,
+      "sha256": "907ee208209bac360046e396c4fa02048c07ceb1485f9fe69a1ec4fdb71a77d0"
+    },
+    {
+      "device": "diorite",
+      "id": 14,
+      "recipe": 2,
+      "bezel": 2,
+      "dial": 2,
+      "sha256": "907ee208209bac360046e396c4fa02048c07ceb1485f9fe69a1ec4fdb71a77d0"
+    },
+    {
+      "device": "diorite",
+      "id": 15,
+      "recipe": 2,
+      "bezel": 2,
+      "dial": 3,
+      "sha256": "e4198c332d7c4ee32530d98f089bc8803710b346ba4aab5672efe4f7a80010c1"
+    },
+    {
+      "device": "diorite",
+      "id": 16,
+      "recipe": 2,
+      "bezel": 3,
+      "dial": 1,
+      "sha256": "907ee208209bac360046e396c4fa02048c07ceb1485f9fe69a1ec4fdb71a77d0"
+    },
+    {
+      "device": "diorite",
+      "id": 17,
+      "recipe": 2,
+      "bezel": 3,
+      "dial": 2,
+      "sha256": "907ee208209bac360046e396c4fa02048c07ceb1485f9fe69a1ec4fdb71a77d0"
+    },
+    {
+      "device": "diorite",
+      "id": 18,
+      "recipe": 2,
+      "bezel": 3,
+      "dial": 3,
+      "sha256": "e4198c332d7c4ee32530d98f089bc8803710b346ba4aab5672efe4f7a80010c1"
+    },
+    {
+      "device": "diorite",
+      "id": 19,
+      "recipe": 3,
+      "bezel": 1,
+      "dial": 1,
+      "sha256": "3d18a0108fee0c2d09c455827a76354e56bb62603792e04b21e5a7a099ea0dab"
+    },
+    {
+      "device": "diorite",
+      "id": 20,
+      "recipe": 3,
+      "bezel": 1,
+      "dial": 2,
+      "sha256": "3d18a0108fee0c2d09c455827a76354e56bb62603792e04b21e5a7a099ea0dab"
+    },
+    {
+      "device": "diorite",
+      "id": 21,
+      "recipe": 3,
+      "bezel": 1,
+      "dial": 3,
+      "sha256": "d392cd1087b59352ee0695c5aedac5c8e60122a35c62abf06c35aff5dde8c1b8"
+    },
+    {
+      "device": "diorite",
+      "id": 22,
+      "recipe": 3,
+      "bezel": 2,
+      "dial": 1,
+      "sha256": "3d18a0108fee0c2d09c455827a76354e56bb62603792e04b21e5a7a099ea0dab"
+    },
+    {
+      "device": "diorite",
+      "id": 23,
+      "recipe": 3,
+      "bezel": 2,
+      "dial": 2,
+      "sha256": "3d18a0108fee0c2d09c455827a76354e56bb62603792e04b21e5a7a099ea0dab"
+    },
+    {
+      "device": "diorite",
+      "id": 24,
+      "recipe": 3,
+      "bezel": 2,
+      "dial": 3,
+      "sha256": "d392cd1087b59352ee0695c5aedac5c8e60122a35c62abf06c35aff5dde8c1b8"
+    },
+    {
+      "device": "diorite",
+      "id": 25,
+      "recipe": 3,
+      "bezel": 3,
+      "dial": 1,
+      "sha256": "3d18a0108fee0c2d09c455827a76354e56bb62603792e04b21e5a7a099ea0dab"
+    },
+    {
+      "device": "diorite",
+      "id": 26,
+      "recipe": 3,
+      "bezel": 3,
+      "dial": 2,
+      "sha256": "3d18a0108fee0c2d09c455827a76354e56bb62603792e04b21e5a7a099ea0dab"
+    },
+    {
+      "device": "diorite",
+      "id": 27,
+      "recipe": 3,
+      "bezel": 3,
+      "dial": 3,
+      "sha256": "d392cd1087b59352ee0695c5aedac5c8e60122a35c62abf06c35aff5dde8c1b8"
+    }
+  ]
+}
