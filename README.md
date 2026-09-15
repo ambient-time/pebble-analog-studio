@@ -2,7 +2,9 @@
 
 An analog Pebble watchface by Luke Steuber. Start with Ivory, Frost, or Noir,
 then choose the bezel, dial, hands, markings, date, seconds, and contrast.
-The face draws its hands and markings natively over a selected material design.
+The watch draws the hands and markings over your chosen materials.
+
+[![Get Analog Studio](https://img.shields.io/badge/Pebble-Get_Analog_Studio-2563eb?style=flat-square)](https://apps.repebble.com/8e2e3c5a1eed4c9da3c5b424) [![MIT code license](https://img.shields.io/badge/Code-MIT-181717?style=flat-square)](LICENSE) [![Ambient Time collection](https://img.shields.io/badge/Ambient_Time-Collection-181717?style=flat-square)](https://ambient-time.com/watch/pebble/)
 
 [Get Analog Studio](https://apps.repebble.com/8e2e3c5a1eed4c9da3c5b424) ·
 [Watch Face Lab](https://datapoems.io/clocks/bases/faces.html)
@@ -130,3 +132,10 @@ are stable: extensions must preserve existing saved codes.
 Copyright 2026 Luke Steuber. Code, procedural artwork, and palette adaptations
 are available under the [MIT License](LICENSE). Pebble SDK and optional build
 tools retain their own licenses.
+
+## Around here
+
+[Luke Steuber](https://github.com/lukeslp) · [Data Poems](https://github.com/data-poems) · [Ambient Time](https://github.com/ambient-time) · [Actually Useful AI](https://github.com/actually-useful-ai) · [One Impossible Thing](https://github.com/one-impossible-thing)
+
+Made by [Luke Steuber](https://lukesteuber.com). Questions or collaboration:
+[luke@lukesteuber.com](mailto:luke@lukesteuber.com).
