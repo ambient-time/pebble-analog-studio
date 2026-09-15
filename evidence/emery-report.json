@@ -1,0 +1,38 @@
+{
+  "platform": "emery",
+  "capturedAt": "2026-09-05T04:32:09.464801+00:00",
+  "pbwSHA256": "e604aa4557bd9f35e4516e02ee9b914f3471a50360075f922bd10d78e0fa88c9",
+  "materialExpansion": "Six bezels/six dials; legacy artwork IDs1\u201327 retained",
+  "invalidCodeUnchanged": true,
+  "restartRetained": true,
+  "secondsAdvance": true,
+  "frames": [
+    "build/evidence/emery-ivory.png",
+    "build/evidence/emery-frost.png",
+    "build/evidence/emery-noir.png",
+    "build/evidence/emery-copper-verdigris.png",
+    "build/evidence/emery-blued-ocean.png",
+    "build/evidence/emery-verdigris-rosewood.png",
+    "build/evidence/emery-custom.png",
+    "build/evidence/emery-invalid-rejected.png",
+    "build/evidence/emery-restart-retained.png",
+    "build/evidence/emery-seconds-start.png",
+    "build/evidence/emery-seconds-later.png"
+  ],
+  "logs": [
+    "Heap Usage for App <Classic St: Total Size <127264B> Used <14984B> Still allocated <0B>",
+    "Studio: L1:2:6:4:2:2:1:1:1 heap 114988",
+    "Studio: L1:1:1:1:0:0:0:0:0 heap 115068",
+    "Studio: L1:2:2:2:0:0:0:0:0 heap 115068",
+    "Studio: L1:3:3:3:0:0:0:0:0 heap 115068",
+    "Studio: L1:1:4:4:0:0:0:0:0 heap 103656",
+    "Studio: L1:2:5:5:0:0:0:0:0 heap 103652",
+    "Studio: L1:3:6:6:0:0:0:0:0 heap 103656",
+    "Studio: L1:2:6:4:2:2:1:0:1 heap 115068",
+    "Studio: rejected configuration",
+    "Heap Usage for App <Classic St: Total Size <127264B> Used <27080B> Still allocated <0B>",
+    "Studio: L1:2:6:4:2:2:1:0:1 heap 114988",
+    "Studio: L1:2:6:4:2:2:1:1:1 heap 115068"
+  ],
+  "limits": "Private persistent emulator profile; direct AppMessage, not physical phone webview evidence."
+}

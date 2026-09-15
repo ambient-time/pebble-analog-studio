@@ -1,0 +1,3605 @@
+{
+  "name": "classic-studio",
+  "author": "Ambient Time",
+  "version": "0.3.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "pebble": {
+    "displayName": "Classic Studio",
+    "companyName": "Ambient Time",
+    "uuid": "f580e82c-3699-4a54-8c00-1c1306921db5",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "diorite",
+      "chalk",
+      "gabbro"
+    ],
+    "capabilities": [
+      "configurable"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "STUDIO_CODE"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/menu-icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_1",
+          "file": "images/emery/1.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_2",
+          "file": "images/emery/2.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_3",
+          "file": "images/emery/3.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_4",
+          "file": "images/emery/4.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_5",
+          "file": "images/emery/5.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_6",
+          "file": "images/emery/6.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_7",
+          "file": "images/emery/7.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_8",
+          "file": "images/emery/8.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_9",
+          "file": "images/emery/9.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_10",
+          "file": "images/emery/10.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_11",
+          "file": "images/emery/11.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_12",
+          "file": "images/emery/12.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_13",
+          "file": "images/emery/13.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_14",
+          "file": "images/emery/14.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_15",
+          "file": "images/emery/15.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_16",
+          "file": "images/emery/16.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_17",
+          "file": "images/emery/17.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_18",
+          "file": "images/emery/18.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_19",
+          "file": "images/emery/19.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_20",
+          "file": "images/emery/20.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_21",
+          "file": "images/emery/21.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_22",
+          "file": "images/emery/22.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_23",
+          "file": "images/emery/23.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_24",
+          "file": "images/emery/24.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_25",
+          "file": "images/emery/25.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_26",
+          "file": "images/emery/26.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_27",
+          "file": "images/emery/27.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_1",
+          "file": "images/diorite/1.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_2",
+          "file": "images/diorite/2.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_3",
+          "file": "images/diorite/3.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_4",
+          "file": "images/diorite/4.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_5",
+          "file": "images/diorite/5.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_6",
+          "file": "images/diorite/6.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_7",
+          "file": "images/diorite/7.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_8",
+          "file": "images/diorite/8.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_9",
+          "file": "images/diorite/9.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_10",
+          "file": "images/diorite/10.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_11",
+          "file": "images/diorite/11.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_12",
+          "file": "images/diorite/12.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_13",
+          "file": "images/diorite/13.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_14",
+          "file": "images/diorite/14.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_15",
+          "file": "images/diorite/15.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_16",
+          "file": "images/diorite/16.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_17",
+          "file": "images/diorite/17.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_18",
+          "file": "images/diorite/18.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_19",
+          "file": "images/diorite/19.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_20",
+          "file": "images/diorite/20.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_21",
+          "file": "images/diorite/21.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_22",
+          "file": "images/diorite/22.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_23",
+          "file": "images/diorite/23.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_24",
+          "file": "images/diorite/24.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_25",
+          "file": "images/diorite/25.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_26",
+          "file": "images/diorite/26.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_27",
+          "file": "images/diorite/27.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_28",
+          "file": "images/emery/28.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_29",
+          "file": "images/emery/29.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_30",
+          "file": "images/emery/30.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_31",
+          "file": "images/emery/31.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_32",
+          "file": "images/emery/32.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_33",
+          "file": "images/emery/33.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_34",
+          "file": "images/emery/34.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_35",
+          "file": "images/emery/35.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_36",
+          "file": "images/emery/36.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_37",
+          "file": "images/emery/37.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_38",
+          "file": "images/emery/38.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_39",
+          "file": "images/emery/39.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_40",
+          "file": "images/emery/40.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_41",
+          "file": "images/emery/41.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_42",
+          "file": "images/emery/42.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_43",
+          "file": "images/emery/43.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_44",
+          "file": "images/emery/44.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_45",
+          "file": "images/emery/45.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_46",
+          "file": "images/emery/46.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_47",
+          "file": "images/emery/47.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_48",
+          "file": "images/emery/48.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_49",
+          "file": "images/emery/49.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_50",
+          "file": "images/emery/50.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_51",
+          "file": "images/emery/51.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_52",
+          "file": "images/emery/52.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_53",
+          "file": "images/emery/53.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_54",
+          "file": "images/emery/54.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_55",
+          "file": "images/emery/55.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_56",
+          "file": "images/emery/56.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_57",
+          "file": "images/emery/57.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_58",
+          "file": "images/emery/58.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_59",
+          "file": "images/emery/59.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_60",
+          "file": "images/emery/60.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_61",
+          "file": "images/emery/61.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_62",
+          "file": "images/emery/62.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_63",
+          "file": "images/emery/63.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_64",
+          "file": "images/emery/64.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_65",
+          "file": "images/emery/65.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_66",
+          "file": "images/emery/66.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_67",
+          "file": "images/emery/67.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_68",
+          "file": "images/emery/68.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_69",
+          "file": "images/emery/69.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_70",
+          "file": "images/emery/70.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_71",
+          "file": "images/emery/71.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_72",
+          "file": "images/emery/72.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_73",
+          "file": "images/emery/73.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_74",
+          "file": "images/emery/74.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_75",
+          "file": "images/emery/75.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_76",
+          "file": "images/emery/76.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_77",
+          "file": "images/emery/77.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_78",
+          "file": "images/emery/78.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_79",
+          "file": "images/emery/79.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_80",
+          "file": "images/emery/80.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_81",
+          "file": "images/emery/81.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_82",
+          "file": "images/emery/82.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_83",
+          "file": "images/emery/83.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_84",
+          "file": "images/emery/84.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_85",
+          "file": "images/emery/85.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_86",
+          "file": "images/emery/86.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_87",
+          "file": "images/emery/87.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_88",
+          "file": "images/emery/88.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_89",
+          "file": "images/emery/89.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_90",
+          "file": "images/emery/90.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_91",
+          "file": "images/emery/91.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_92",
+          "file": "images/emery/92.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_93",
+          "file": "images/emery/93.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_94",
+          "file": "images/emery/94.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_95",
+          "file": "images/emery/95.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_96",
+          "file": "images/emery/96.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_97",
+          "file": "images/emery/97.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_98",
+          "file": "images/emery/98.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_99",
+          "file": "images/emery/99.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_100",
+          "file": "images/emery/100.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_101",
+          "file": "images/emery/101.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_102",
+          "file": "images/emery/102.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_103",
+          "file": "images/emery/103.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_104",
+          "file": "images/emery/104.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_105",
+          "file": "images/emery/105.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_106",
+          "file": "images/emery/106.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_107",
+          "file": "images/emery/107.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_108",
+          "file": "images/emery/108.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_28",
+          "file": "images/diorite/28.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_29",
+          "file": "images/diorite/29.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_30",
+          "file": "images/diorite/30.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_31",
+          "file": "images/diorite/31.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_32",
+          "file": "images/diorite/32.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_33",
+          "file": "images/diorite/33.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_34",
+          "file": "images/diorite/34.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_35",
+          "file": "images/diorite/35.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_36",
+          "file": "images/diorite/36.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_37",
+          "file": "images/diorite/37.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_38",
+          "file": "images/diorite/38.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_39",
+          "file": "images/diorite/39.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_40",
+          "file": "images/diorite/40.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_41",
+          "file": "images/diorite/41.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_42",
+          "file": "images/diorite/42.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_43",
+          "file": "images/diorite/43.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_44",
+          "file": "images/diorite/44.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_45",
+          "file": "images/diorite/45.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_46",
+          "file": "images/diorite/46.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_47",
+          "file": "images/diorite/47.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_48",
+          "file": "images/diorite/48.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_49",
+          "file": "images/diorite/49.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_50",
+          "file": "images/diorite/50.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_51",
+          "file": "images/diorite/51.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_52",
+          "file": "images/diorite/52.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_53",
+          "file": "images/diorite/53.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_54",
+          "file": "images/diorite/54.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_55",
+          "file": "images/diorite/55.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_56",
+          "file": "images/diorite/56.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_57",
+          "file": "images/diorite/57.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_58",
+          "file": "images/diorite/58.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_59",
+          "file": "images/diorite/59.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_60",
+          "file": "images/diorite/60.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_61",
+          "file": "images/diorite/61.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_62",
+          "file": "images/diorite/62.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_63",
+          "file": "images/diorite/63.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_64",
+          "file": "images/diorite/64.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_65",
+          "file": "images/diorite/65.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_66",
+          "file": "images/diorite/66.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_67",
+          "file": "images/diorite/67.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_68",
+          "file": "images/diorite/68.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_69",
+          "file": "images/diorite/69.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_70",
+          "file": "images/diorite/70.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_71",
+          "file": "images/diorite/71.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_72",
+          "file": "images/diorite/72.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_73",
+          "file": "images/diorite/73.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_74",
+          "file": "images/diorite/74.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_75",
+          "file": "images/diorite/75.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_76",
+          "file": "images/diorite/76.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_77",
+          "file": "images/diorite/77.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_78",
+          "file": "images/diorite/78.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_79",
+          "file": "images/diorite/79.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_80",
+          "file": "images/diorite/80.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_81",
+          "file": "images/diorite/81.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_82",
+          "file": "images/diorite/82.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_83",
+          "file": "images/diorite/83.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_84",
+          "file": "images/diorite/84.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_85",
+          "file": "images/diorite/85.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_86",
+          "file": "images/diorite/86.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_87",
+          "file": "images/diorite/87.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_88",
+          "file": "images/diorite/88.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_89",
+          "file": "images/diorite/89.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_90",
+          "file": "images/diorite/90.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_91",
+          "file": "images/diorite/91.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_92",
+          "file": "images/diorite/92.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_93",
+          "file": "images/diorite/93.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_94",
+          "file": "images/diorite/94.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_95",
+          "file": "images/diorite/95.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_96",
+          "file": "images/diorite/96.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_97",
+          "file": "images/diorite/97.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_98",
+          "file": "images/diorite/98.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_99",
+          "file": "images/diorite/99.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_100",
+          "file": "images/diorite/100.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_101",
+          "file": "images/diorite/101.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_102",
+          "file": "images/diorite/102.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_103",
+          "file": "images/diorite/103.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_104",
+          "file": "images/diorite/104.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_105",
+          "file": "images/diorite/105.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_106",
+          "file": "images/diorite/106.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_107",
+          "file": "images/diorite/107.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_108",
+          "file": "images/diorite/108.png",
+          "targetPlatforms": [
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_1",
+          "file": "images/chalk/1.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_2",
+          "file": "images/chalk/2.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_3",
+          "file": "images/chalk/3.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_4",
+          "file": "images/chalk/4.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_5",
+          "file": "images/chalk/5.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_6",
+          "file": "images/chalk/6.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_7",
+          "file": "images/chalk/7.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_8",
+          "file": "images/chalk/8.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_9",
+          "file": "images/chalk/9.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_10",
+          "file": "images/chalk/10.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_11",
+          "file": "images/chalk/11.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_12",
+          "file": "images/chalk/12.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_13",
+          "file": "images/chalk/13.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_14",
+          "file": "images/chalk/14.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_15",
+          "file": "images/chalk/15.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_16",
+          "file": "images/chalk/16.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_17",
+          "file": "images/chalk/17.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_18",
+          "file": "images/chalk/18.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_19",
+          "file": "images/chalk/19.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_20",
+          "file": "images/chalk/20.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_21",
+          "file": "images/chalk/21.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_22",
+          "file": "images/chalk/22.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_23",
+          "file": "images/chalk/23.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_24",
+          "file": "images/chalk/24.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_25",
+          "file": "images/chalk/25.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_26",
+          "file": "images/chalk/26.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_27",
+          "file": "images/chalk/27.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_28",
+          "file": "images/chalk/28.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_29",
+          "file": "images/chalk/29.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_30",
+          "file": "images/chalk/30.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_31",
+          "file": "images/chalk/31.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_32",
+          "file": "images/chalk/32.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_33",
+          "file": "images/chalk/33.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_34",
+          "file": "images/chalk/34.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_35",
+          "file": "images/chalk/35.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_36",
+          "file": "images/chalk/36.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_37",
+          "file": "images/chalk/37.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_38",
+          "file": "images/chalk/38.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_39",
+          "file": "images/chalk/39.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_40",
+          "file": "images/chalk/40.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_41",
+          "file": "images/chalk/41.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_42",
+          "file": "images/chalk/42.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_43",
+          "file": "images/chalk/43.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_44",
+          "file": "images/chalk/44.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_45",
+          "file": "images/chalk/45.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_46",
+          "file": "images/chalk/46.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_47",
+          "file": "images/chalk/47.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_48",
+          "file": "images/chalk/48.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_49",
+          "file": "images/chalk/49.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_50",
+          "file": "images/chalk/50.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_51",
+          "file": "images/chalk/51.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_52",
+          "file": "images/chalk/52.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_53",
+          "file": "images/chalk/53.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_54",
+          "file": "images/chalk/54.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_55",
+          "file": "images/chalk/55.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_56",
+          "file": "images/chalk/56.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_57",
+          "file": "images/chalk/57.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_58",
+          "file": "images/chalk/58.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_59",
+          "file": "images/chalk/59.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_60",
+          "file": "images/chalk/60.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_61",
+          "file": "images/chalk/61.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_62",
+          "file": "images/chalk/62.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_63",
+          "file": "images/chalk/63.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_64",
+          "file": "images/chalk/64.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_65",
+          "file": "images/chalk/65.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_66",
+          "file": "images/chalk/66.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_67",
+          "file": "images/chalk/67.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_68",
+          "file": "images/chalk/68.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_69",
+          "file": "images/chalk/69.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_70",
+          "file": "images/chalk/70.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_71",
+          "file": "images/chalk/71.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_72",
+          "file": "images/chalk/72.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_73",
+          "file": "images/chalk/73.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_74",
+          "file": "images/chalk/74.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_75",
+          "file": "images/chalk/75.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_76",
+          "file": "images/chalk/76.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_77",
+          "file": "images/chalk/77.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_78",
+          "file": "images/chalk/78.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_79",
+          "file": "images/chalk/79.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_80",
+          "file": "images/chalk/80.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_81",
+          "file": "images/chalk/81.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_82",
+          "file": "images/chalk/82.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_83",
+          "file": "images/chalk/83.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_84",
+          "file": "images/chalk/84.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_85",
+          "file": "images/chalk/85.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_86",
+          "file": "images/chalk/86.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_87",
+          "file": "images/chalk/87.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_88",
+          "file": "images/chalk/88.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_89",
+          "file": "images/chalk/89.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_90",
+          "file": "images/chalk/90.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_91",
+          "file": "images/chalk/91.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_92",
+          "file": "images/chalk/92.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_93",
+          "file": "images/chalk/93.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_94",
+          "file": "images/chalk/94.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_95",
+          "file": "images/chalk/95.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_96",
+          "file": "images/chalk/96.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_97",
+          "file": "images/chalk/97.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_98",
+          "file": "images/chalk/98.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_99",
+          "file": "images/chalk/99.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_100",
+          "file": "images/chalk/100.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_101",
+          "file": "images/chalk/101.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_102",
+          "file": "images/chalk/102.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_103",
+          "file": "images/chalk/103.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_104",
+          "file": "images/chalk/104.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_105",
+          "file": "images/chalk/105.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_106",
+          "file": "images/chalk/106.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_107",
+          "file": "images/chalk/107.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_108",
+          "file": "images/chalk/108.png",
+          "targetPlatforms": [
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_1",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_2",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_3",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_4",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_5",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_6",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_7",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_8",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_9",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_10",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_11",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_12",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_13",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_14",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_15",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_16",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_17",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_18",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_19",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_20",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_21",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_22",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_23",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_24",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_25",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_26",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_27",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_28",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_29",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_30",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_31",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_32",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_33",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_34",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_35",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_36",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_37",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_38",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_39",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_40",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_41",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_42",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_43",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_44",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_45",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_46",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_47",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_48",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_49",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_50",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_51",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_52",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_53",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_54",
+          "file": "images/gabbro/mask-1.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_55",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_56",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_57",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_58",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_59",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_60",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_61",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_62",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_63",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_64",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_65",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_66",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_67",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_68",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_69",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_70",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_71",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_72",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_73",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_74",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_75",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_76",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_77",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_78",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_79",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_80",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_81",
+          "file": "images/gabbro/mask-2.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_82",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_83",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_84",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_85",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_86",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_87",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_88",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_89",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_90",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_91",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_92",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_93",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_94",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_95",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_96",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_97",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_98",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_99",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_100",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_101",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_102",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_103",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_104",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_105",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_106",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_107",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        },
+        {
+          "type": "bitmap",
+          "name": "STUDIO_ART_108",
+          "file": "images/gabbro/mask-3.png",
+          "targetPlatforms": [
+            "gabbro"
+          ],
+          "memoryFormat": "2BitPalette"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "platform": "gabbro",
+  "capturedAt": "2026-09-05T04:30:59.393477+00:00",
+  "pbwSHA256": "e604aa4557bd9f35e4516e02ee9b914f3471a50360075f922bd10d78e0fa88c9",
+  "materialExpansion": "Six bezels/six dials; legacy artwork IDs1\u201327 retained",
+  "invalidCodeUnchanged": true,
+  "restartRetained": true,
+  "secondsAdvance": true,
+  "frames": [
+    "build/evidence/gabbro-ivory.png",
+    "build/evidence/gabbro-frost.png",
+    "build/evidence/gabbro-noir.png",
+    "build/evidence/gabbro-copper-verdigris.png",
+    "build/evidence/gabbro-blued-ocean.png",
+    "build/evidence/gabbro-verdigris-rosewood.png",
+    "build/evidence/gabbro-custom.png",
+    "build/evidence/gabbro-invalid-rejected.png",
+    "build/evidence/gabbro-restart-retained.png",
+    "build/evidence/gabbro-seconds-start.png",
+    "build/evidence/gabbro-seconds-later.png"
+  ],
+  "logs": [
+    "Heap Usage for App <Classic St: Total Size <127264B> Used <21656B> Still allocated <0B>",
+    "Studio: L1:2:6:4:2:2:1:1:1 heap 109224",
+    "Studio: L1:1:1:1:0:0:0:0:0 heap 109304",
+    "Studio: L1:2:2:2:0:0:0:0:0 heap 109304",
+    "Studio: L1:3:3:3:0:0:0:0:0 heap 109304",
+    "Studio: L1:1:4:4:0:0:0:0:0 heap 109304",
+    "Studio: L1:2:5:5:0:0:0:0:0 heap 109304",
+    "Studio: L1:3:6:6:0:0:0:0:0 heap 109304",
+    "Studio: L1:2:6:4:2:2:1:0:1 heap 109304",
+    "Studio: rejected configuration",
+    "Heap Usage for App <Classic St: Total Size <127032B> Used <22740B> Still allocated <0B>",
+    "Studio: L1:2:6:4:2:2:1:0:1 heap 109224",
+    "Studio: L1:2:6:4:2:2:1:1:1 heap 109304"
+  ],
+  "limits": "Private persistent emulator profile; direct AppMessage, not physical phone webview evidence."
+}
