@@ -1,7 +1,8 @@
 # Source and licensing
 
-Analog Studio is Luke Steuber's native Pebble adaptation of the material and
-layout choices in [Watch Face Lab](https://datapoems.io/clocks/bases/faces.html).
+Analog Studio is my native Pebble adaptation of the material and layout
+choices in [Watch Face Lab](https://datapoems.io/clocks/bases/faces.html), a
+web project of mine.
 Its code, procedural artwork, recipe contract, and supplied palette snapshot
 are released under the MIT License in this repository.
 

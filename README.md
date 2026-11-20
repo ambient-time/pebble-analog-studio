@@ -1,13 +1,14 @@
 # Analog Studio
 
-An analog Pebble watchface by Luke Steuber. Start with Ivory, Frost, or Noir,
-then choose the bezel, dial, hands, markings, date, seconds, and contrast.
-The watch draws the hands and markings over your chosen materials.
+A configurable analog watchface for Pebble. Start with one of three
+constructions, Ivory, Frost or Noir, then choose the bezel, dial, hands,
+markings, date, seconds and contrast. The watch draws the hands and markings
+over the materials you pick.
+
+It is listed on the Pebble Appstore as Analog Studio. Inside the package it is
+still called Classic Studio (`classic-studio`), so search for either name.
 
 [![Get Analog Studio](https://img.shields.io/badge/Pebble-Get_Analog_Studio-2563eb?style=flat-square)](https://apps.repebble.com/8e2e3c5a1eed4c9da3c5b424) [![MIT code license](https://img.shields.io/badge/Code-MIT-181717?style=flat-square)](LICENSE) [![Ambient Time collection](https://img.shields.io/badge/Ambient_Time-Collection-181717?style=flat-square)](https://ambient-time.com/watch/pebble/)
-
-[Get Analog Studio](https://apps.repebble.com/8e2e3c5a1eed4c9da3c5b424) ·
-[Watch Face Lab](https://datapoems.io/clocks/bases/faces.html)
 
 ![Analog Studio on Pebble Time 2](evidence/emery-ivory.png)
 
@@ -20,8 +21,8 @@ The watch draws the hands and markings over your chosen materials.
 | Pebble Time Round | Chalk | 180 × 180, color |
 | Pebble Round 2 | Gabbro | 260 × 260, color |
 
-All four share version 0.3.0 and one app identity. The package name remains
-`classic-studio`, preserving installed settings and compatibility.
+All four share version 0.3.0 and one app identity. The package name stays
+`classic-studio` so that installed copies keep their settings.
 
 ## Choose a design
 
@@ -29,19 +30,20 @@ Open the settings gear in the Pebble phone app. The bundled form offers all
 settings without requiring a hosted configuration page. It also links to an
 optional online visual editor.
 
-Choose among six bezel finishes—Brass, Cool Chrome, Noir, Warm Copper,
-Blued Steel, and Verdigris—and six dial finishes—Ivory, Frost, Ink Black,
-Verdigris, Ocean, and Rosewood. Monochrome watches use purpose-built linework;
+There are six bezel finishes (Brass, Cool Chrome, Noir, Warm Copper, Blued
+Steel and Verdigris) and six dial finishes (Ivory, Frost, Ink Black,
+Verdigris, Ocean and Rosewood). Monochrome watches use purpose-built linework;
 color finishes share the corresponding light or dark treatment there.
 
 The watch saves an accepted design and restores it after a restart. Invalid
 settings leave the previous design intact. Seconds are off by default;
 enabling them changes drawing from once per minute to once per second.
 
-Watch Face Lab is a broader collection. This face supports three constructions
-and 7,776 configurations; it does not render arbitrary browser designs.
-The online editor previews the materials and layout, with differences from
-native font rendering and the watch's limited palette.
+This face supports three constructions and 7,776 combinations. It is based
+on my web [Watch Face Lab](https://datapoems.io/clocks/bases/faces.html),
+which has many more designs; the watch does not render arbitrary browser
+designs. The online editor previews the materials and layout, but its fonts
+and colors differ a little from the watch's system fonts and limited palette.
 
 ## Build
 
@@ -92,8 +94,7 @@ before copying media into `build/store-assets/`.
 The included `evidence/` images and reports are historical emulator evidence
 for the published 0.3.0 binary, SHA-256
 `e604aa4557bd9f35e4516e02ee9b914f3471a50360075f922bd10d78e0fa88c9`.
-A fresh build needs its own emulator evidence. Physical-watch readability,
-battery use, and delivery through a real phone settings page remain unverified.
+A fresh build needs its own emulator evidence.
 
 ## Artwork source
 
@@ -137,5 +138,4 @@ tools retain their own licenses.
 
 [Luke Steuber](https://github.com/lukeslp) · [Data Poems](https://github.com/data-poems) · [Ambient Time](https://github.com/ambient-time) · [Actually Useful AI](https://github.com/actually-useful-ai) · [One Impossible Thing](https://github.com/one-impossible-thing)
 
-Made by [Luke Steuber](https://lukesteuber.com). Questions or collaboration:
-[luke@lukesteuber.com](mailto:luke@lukesteuber.com).
+Questions or collaboration: [luke@lukesteuber.com](mailto:luke@lukesteuber.com).
