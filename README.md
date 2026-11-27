@@ -134,8 +134,7 @@ Copyright 2026 Luke Steuber. Code, procedural artwork, and palette adaptations
 are available under the [MIT License](LICENSE). Pebble SDK and optional build
 tools retain their own licenses.
 
-## Around here
+## Related
 
-[Luke Steuber](https://github.com/lukeslp) · [Data Poems](https://github.com/data-poems) · [Ambient Time](https://github.com/ambient-time) · [Actually Useful AI](https://github.com/actually-useful-ai) · [One Impossible Thing](https://github.com/one-impossible-thing)
-
-Questions or collaboration: [luke@lukesteuber.com](mailto:luke@lukesteuber.com).
+- [Web analog bases](https://datapoems.io/clocks/bases/faces.html)
+- [Pebble collection](https://ambient-time.com/watch/pebble/)
